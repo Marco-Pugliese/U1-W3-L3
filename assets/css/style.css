@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Slabo+27px&display=swap");
+
+body {
+  font-family: "DM Serif Display", serif;
+  font-family: "Slabo 27px", serif;
+  background: url(../media/sfondo2.png);
+  min-height: 100vh;
+}
+.container {
+  width: 60%;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.516);
+  box-shadow: 0px 5px 40px 0 black;
+}
+header {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-bottom: 25px;
+}
+header > div {
+  margin-top: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 2em;
+  color: #6ab46a;
+}
+.center {
+  width: 95%;
+  margin: 0 auto;
+}
+form textarea {
+  background-color: #6ab46aa1;
+  color: white;
+  width: 80%;
+  max-width: 80%;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+form textarea::placeholder {
+  color: white;
+}
+
+#text-area-wrap {
+  display: inline;
+}
+main {
+  min-height: 90vh;
+}
+#list-wrap div {
+  width: 100%;
+}
+form button {
+  background-color: #6ab46ad9;
+  color: rgba(255, 255, 255, 0.821);
+  border: none;
+  transform: translateY(-35px);
+  margin-left: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.2em;
+}
+form div {
+  display: inline;
+}
+#list-wrap {
+  border-top: 2px solid #6ec96e;
+}
+
+button:hover {
+  cursor: pointer;
+}
+.newToDo {
+  text-align: center;
+  width: 80%;
+  color: #6ec96e;
+  margin-top: 10px;
+  padding: 10px 0;
+  box-shadow: 0px 0px 40px 1px rgba(255, 255, 255, 0.204);
+  font-size: 1.1em;
+  border-radius: 10px;
+}
+.newToDo > div {
+  display: inline;
+  padding: 0 20px;
+}
+.newToDo button {
+  font-size: 1.1em;
+  margin: 0px 10px;
+  background-color: transparent;
+  border: none;
+}
+#doneIt {
+  color: whitesmoke;
+}
+#deleteIt {
+  color: indianred;
+}
+.lined {
+  text-decoration: line-through 4px solid white;
+}
+#doneIt.greenAgain {
+  color: #6ab46a;
+}
